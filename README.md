@@ -6,7 +6,7 @@ This project is developed as part of the laboratory exercises for ESE382 Digital
 
 The design uses a multiplexed approach to display digits on a seven-segment display using SPI communication. The system block diagram included in the repository provides a comprehensive view of the components and their interactions.
 
-[View PDF](/pics/block_diagram_ls (1).pdf)
+[View PDF](pics/block_diagram_ls (1).pdf)
 
 ### Components
 

@@ -23,7 +23,7 @@ The design uses a multiplexed approach to display digits on a seven-segment disp
 Detailed diagrams and pictures of the actual circuit setup are provided to aid in replicating the project setup.
 
 <p align= "center">
-  <img src = "pics/IMG_7140.jpeg" width = 800px; height = 400px; tranf>
+  <img src = "pics/IMG_7140.jpeg" width = 800px; height = 600px; tranf>
 </p>
 
 ## VHDL Modules

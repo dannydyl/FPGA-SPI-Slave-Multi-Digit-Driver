@@ -1,4 +1,4 @@
-# Multi-digit Multiplexed Seven-Segment Display Driver with SPI Interface
+# Multi-digit Multiplexed Seven-Segment Display Driver with SPI Interface Using FPGA
 
 This project is to design a multiplexed 4-digit seven-segment display with an SPI interface, capable of displaying digits based on commands received via SPI. The design utilizes the LMX03LF-6900C FPGA from Lattice and the AVR128DB48 microcontroller, programmed in VHDL.
 

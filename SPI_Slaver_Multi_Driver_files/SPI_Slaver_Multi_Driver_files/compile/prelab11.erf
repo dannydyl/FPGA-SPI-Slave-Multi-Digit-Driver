@@ -1,0 +1,83 @@
+MESSAGE "File: F:/ESE382-Lab/Lab11/Prelab11/Prelab11/prelab11/src/spi_mux_digit_driver.vhd" 
+BEGINPROGRESS F:/ESE382-Lab/Lab11/Prelab11/Prelab11/prelab11/src/spi_mux_digit_driver.vhd
+UPDATEPROGRESS 1
+MESSAGE "Compile Entity "slv_spi_rx_shifter"" 
+UPDATEPROGRESS 3
+MESSAGE "Compile Architecture "slv_spi_rx_shifter" of Entity "slv_spi_rx_shifter"" 
+UPDATEPROGRESS 7
+UPDATEPROGRESS 8
+UPDATEPROGRESS 9
+MESSAGE "Compile Entity "edge_det"" 
+UPDATEPROGRESS 11
+MESSAGE "Compile Architecture "moore_fsm" of Entity "edge_det"" 
+UPDATEPROGRESS 12
+UPDATEPROGRESS 14
+UPDATEPROGRESS 15
+UPDATEPROGRESS 16
+UPDATEPROGRESS 21
+UPDATEPROGRESS 22
+UPDATEPROGRESS 23
+UPDATEPROGRESS 24
+MESSAGE "Compile Entity "rx_buff_reg"" 
+UPDATEPROGRESS 25
+UPDATEPROGRESS 26
+MESSAGE "Compile Architecture "Behavioral" of Entity "rx_buff_reg"" 
+UPDATEPROGRESS 28
+UPDATEPROGRESS 29
+UPDATEPROGRESS 30
+MESSAGE "Compile Entity "hex_digit_reg"" 
+UPDATEPROGRESS 32
+UPDATEPROGRESS 33
+MESSAGE "Compile Architecture "behavioral" of Entity "hex_digit_reg"" 
+UPDATEPROGRESS 35
+UPDATEPROGRESS 36
+UPDATEPROGRESS 37
+MESSAGE "Compile Entity "decoder_2to4"" 
+UPDATEPROGRESS 38
+UPDATEPROGRESS 39
+MESSAGE "Compile Architecture "dataflow" of Entity "decoder_2to4"" 
+UPDATEPROGRESS 40
+UPDATEPROGRESS 41
+UPDATEPROGRESS 42
+MESSAGE "Compile Entity "load_digit_fsm"" 
+UPDATEPROGRESS 44
+MESSAGE "Compile Architecture "moore_fsm" of Entity "load_digit_fsm"" 
+UPDATEPROGRESS 45
+UPDATEPROGRESS 47
+UPDATEPROGRESS 49
+UPDATEPROGRESS 56
+UPDATEPROGRESS 57
+UPDATEPROGRESS 58
+MESSAGE "Compile Entity "hex_dig_mux"" 
+UPDATEPROGRESS 60
+UPDATEPROGRESS 61
+MESSAGE "Compile Architecture "behavioral" of Entity "hex_dig_mux"" 
+UPDATEPROGRESS 63
+UPDATEPROGRESS 64
+MESSAGE "Compile Entity "hex_seven"" 
+UPDATEPROGRESS 66
+MESSAGE "Compile Architecture "behavioral" of Entity "hex_seven"" 
+UPDATEPROGRESS 71
+UPDATEPROGRESS 73
+MESSAGE "Compile Entity "spi_mux_digit_driver"" 
+UPDATEPROGRESS 75
+UPDATEPROGRESS 76
+UPDATEPROGRESS 77
+MESSAGE "Compile Architecture "spi_mux_digit_driver" of Entity "spi_mux_digit_driver"" 
+UPDATEPROGRESS 78
+UPDATEPROGRESS 79
+UPDATEPROGRESS 80
+UPDATEPROGRESS 81
+UPDATEPROGRESS 82
+UPDATEPROGRESS 83
+UPDATEPROGRESS 85
+UPDATEPROGRESS 87
+UPDATEPROGRESS 89
+UPDATEPROGRESS 91
+UPDATEPROGRESS 93
+UPDATEPROGRESS 96
+UPDATEPROGRESS 97
+UPDATEPROGRESS 99
+UPDATEPROGRESS 100
+ENDPROGRESS F:/ESE382-Lab/Lab11/Prelab11/Prelab11/prelab11/src/spi_mux_digit_driver.vhd
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]" 

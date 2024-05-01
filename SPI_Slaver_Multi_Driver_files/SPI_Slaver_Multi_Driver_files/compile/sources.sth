@@ -1,0 +1,18 @@
+[Files List]
+C:\Program Files\Aldec\Active-HDL-12-x64\vlib\std/src/standard.vhd=S
+C:\Program Files\Aldec\Active-HDL-12-x64\vlib\std/src/textio.vhd=S
+C:\Program Files\Aldec\Active-HDL-12-x64\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\Program Files\Aldec\Active-HDL-12-x64\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\Program Files\Aldec\Active-HDL-12-x64\vlib\std/src/env.vhd=S
+C:\Program Files\Aldec\Active-HDL-12-x64\vlib\ieee/src/numeric_std.vhdl=S
+C:\Program Files\Aldec\Active-HDL-12-x64\vlib\ieee/src/numeric_std-body.vhdl=S
+F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11/src/spi_mux_digit_driver.vhd=S
+F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11/src/load_digit_fsm.vhd=S
+F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11/src/hex_seven.vhd=S
+F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11/src/hex_dig_mux.vhd=S
+F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11/src/hex_digit_reg.vhd=S
+F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11/src/decoder_2to4.vhd=S
+F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11/src/rx_buff_reg.vhd=S
+F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11/src/edge_det.vhd=S
+F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11/src/slv_spi_rx_shifter.vhd=S
+F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11/src/spi_mux_digit_driver_TB.vhd=S

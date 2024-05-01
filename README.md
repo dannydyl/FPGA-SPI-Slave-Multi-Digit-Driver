@@ -1,13 +1,13 @@
 # Multi-digit Multiplexed Seven-Segment Display Driver with SPI Interface
 
-This project is developed as part of the laboratory exercises for ESE382 Digital System Design Using VHDL and PLDs at Stony Brook University. The objective is to design a multiplexed 4-digit seven-segment display with an SPI interface, capable of displaying digits based on commands received via SPI.
+This project is to design a multiplexed 4-digit seven-segment display with an SPI interface, capable of displaying digits based on commands received via SPI. The design utilizes the LMX03LF-6900C FPGA from Lattice and the AVR128DB48 microcontroller, programmed in VHDL.
 
 ## System Overview
 
 The design uses a multiplexed approach to display digits on a seven-segment display using SPI communication. The system block diagram included in the repository provides a comprehensive view of the components and their interactions.
 
-<p align= "center">
-  <img src = "pics/diagram.jpeg"; tranf>
+<p align="center">
+  <img src="pics/diagram.jpeg">
 </p>
 
 ### Components
@@ -24,8 +24,8 @@ The design uses a multiplexed approach to display digits on a seven-segment disp
 
 Detailed diagrams and pictures of the actual circuit setup are provided to aid in replicating the project setup.
 
-<p align= "center">
-  <img src = "pics/IMG_7140.jpeg" width = 800px; height = 600px; tranf>
+<p align="center">
+  <img src="pics/IMG_7140.jpeg" width="800px" height="600px">
 </p>
 
 ## VHDL Modules
@@ -47,17 +47,8 @@ Testbenches for each module are available under the `testbenches` directory. Ins
 
 ## Synthesis and Programming
 
-Instructions on synthesizing the design for a target PLD and programming it using Lattice Diamond are included.
-
-## Documentation
-
-Additional documentation, including state diagrams and entity declarations for each module, can be found in the `docs` folder.
-
-## Contributions and Licensing
-
-Feel free to fork this project and contribute back any enhancements or bug fixes. This project is released under the MIT License.
+Instructions on synthesizing the design for the LMX03LF-6900C FPGA target PLD and programming it using Lattice Diamond are included.
 
 ## Acknowledgments
 
 Special thanks to Prof. Ken Short and the TA team for their guidance and support throughout the laboratory exercises.
-

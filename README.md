@@ -7,11 +7,11 @@ This project is to design a multiplexed 4-digit seven-segment display with an SP
 The design uses a multiplexed approach to display digits on a seven-segment display using SPI communication. The system block diagram included in the repository provides a comprehensive view of the components and their interactions.
 
 <p align="center">
-  <img src="pics/diagram.jpeg">
+  <img src="preview/diagram.jpeg">
 </p>
 
 ### Components
-Each component has its own source code with testbench in the folder.
+Each component has its own source code with testbench in the "preview" folder.
 
 - **Edge Detector (U1)**: Detects the positive edge of signals.
 - **SPI RX Shifter (U2)**: Shifts in the serial data from SPI.
@@ -26,7 +26,7 @@ Each component has its own source code with testbench in the folder.
 Detailed diagrams and pictures of the actual circuit setup are provided to aid in replicating the project setup.
 
 <p align="center">
-  <img src="pics/IMG_7140.jpeg" width="800px" height="600px">
+  <img src="preview/IMG_7140.jpeg" width="800px" height="600px">
 </p>
 
 ## VHDL Modules

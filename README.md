@@ -52,4 +52,4 @@ Instructions on synthesizing the design for the LMX03LF-6900C FPGA target PLD an
 
 ## Acknowledgments
 
-Special thanks to Prof. Ken Short and the TA team for their guidance and support throughout the laboratory exercises.
+Special thanks to Prof. Short and the TA team for their guidance and support throughout the laboratory exercises.

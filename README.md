@@ -11,11 +11,12 @@ The design uses a multiplexed approach to display digits on a seven-segment disp
 </p>
 
 ### Components
+Each component has its own source code with testbench in the folder.
 
 - **Edge Detector (U1)**: Detects the positive edge of signals.
 - **SPI RX Shifter (U2)**: Shifts in the serial data from SPI.
 - **Buffer Register (U4)**: Holds the data received from the SPI interface.
-- **Decoder 2-to-4 (U5)**: Decodes address bits to select one of the four digit registers.
+- **Decoder 2-to-4 (U5)**: Decodes address bits to select one of the four-digit registers.
 - **Hex Digit Registers (U6, U7, U8, U9)**: Store individual digit values.
 - **Digit Mux (U10)**: Selects which digit to display based on the multiplexer control signals.
 - **Seven Segment Driver (U11)**: Drives the seven-segment display.

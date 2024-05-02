@@ -1,0 +1,5 @@
+@N: MF248 |Running in 64-bit mode.
+@N: BN362 :"f:\ese382-lab\lab11\prelab11\prelab11\prelab11\src\spi_mux_digit_driver.vhd":147:2:147:3|Removing sequential instance u4.rx_buff_out[6] (in view: work.spi_mux_digit_driver(spi_mux_digit_driver)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO106 :"f:\ese382-lab\lab11\prelab11\prelab11\prelab11\src\spi_mux_digit_driver.vhd":348:6:348:15|Found ROM u11.seg_drive_1[6:0] (in view: work.spi_mux_digit_driver(spi_mux_digit_driver)) with 15 words by 7 bits.
+@N: MO225 :"f:\ese382-lab\lab11\prelab11\prelab11\prelab11\src\spi_mux_digit_driver.vhd":234:2:234:3|There are no possible illegal states for state machine present_state[0:3] (in view: work.load_digit_fsm(moore_fsm)); safe FSM implementation is not required.
+@N: FC100 |Timing Report not generated for this device, please use place and route tools for timing analysis.

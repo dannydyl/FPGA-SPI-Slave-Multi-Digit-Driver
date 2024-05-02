@@ -1,0 +1,7 @@
+C:\Synopsys\fpga_S-2021.09-SP2\bin64\syn_nfilter.exe  -link  -multisrs  F:\ESE382-Lab\Lab11\rev_21\synwork\spi_mux_digit_driver_comp.srs  -osyn  F:\ESE382-Lab\Lab11\rev_21\synwork\spi_mux_digit_driver_mult.srs  -log  F:\ESE382-Lab\Lab11\rev_21\synlog\spi_mux_digit_driver_multi_srs_gen.srr 
+relcom:C:\Synopsys\fpga_S-2021.09-SP2\bin64\syn_nfilter.exe -link -multisrs ..\synwork\spi_mux_digit_driver_comp.srs -osyn ..\synwork\spi_mux_digit_driver_mult.srs -log ..\synlog\spi_mux_digit_driver_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\spi_mux_digit_driver_comp.srs|io:i|time:1714570546|size:8745|exec:0|csum:47CB235810F7E7DEA2322BE675561B8A
+file:..\synwork\spi_mux_digit_driver_mult.srs|io:o|time:1714570548|size:4238|exec:0|csum:
+file:..\synlog\spi_mux_digit_driver_multi_srs_gen.srr|io:o|time:1714570548|size:1430|exec:0|csum:
+file:C:\Synopsys\fpga_S-2021.09-SP2\bin64\syn_nfilter.exe|io:i|time:1654086548|size:8736768|exec:1|csum:8DE049913141524B2CDFB82FB9120055

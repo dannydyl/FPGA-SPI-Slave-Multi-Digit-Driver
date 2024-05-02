@@ -1,0 +1,22 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":358:7:358:26|Top entity is set to spi_mux_digit_driver.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd'.
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":358:7:358:26|Synthesizing work.spi_mux_digit_driver.spi_mux_digit_driver.
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":217:7:217:20|Synthesizing work.load_digit_fsm.moore_fsm.
+@N: CD233 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":228:11:228:12|Using sequential encoding for type state.
+@N: CD604 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":277:3:277:16|OTHERS clause is not synthesized.
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":320:7:320:15|Synthesizing work.hex_seven.behavioral.
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":292:7:292:17|Synthesizing work.hex_dig_mux.behavioral.
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":163:7:163:19|Synthesizing work.hex_digit_reg.behavioral.
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":194:7:194:18|Synthesizing work.decoder_2to4.dataflow.
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":133:7:133:17|Synthesizing work.rx_buff_reg.behavioral.
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":65:7:65:14|Synthesizing work.edge_det.moore_fsm.
+@N: CD233 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":77:11:77:12|Using sequential encoding for type state.
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":27:7:27:24|Synthesizing work.slv_spi_rx_shifter.slv_spi_rx_shifter.
+@N: CL201 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":83:2:83:3|Trying to extract state machine for register present_state.
+@N: CL201 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":234:2:234:3|Trying to extract state machine for register present_state.
+@N|Running in 64-bit mode
+@N: NF107 :"f:\ese382-lab\lab11\prelab11\prelab11\prelab11\src\spi_mux_digit_driver.vhd":358:7:358:26|Selected library: work cell: spi_mux_digit_driver view spi_mux_digit_driver as top level
+@N: NF107 :"f:\ese382-lab\lab11\prelab11\prelab11\prelab11\src\spi_mux_digit_driver.vhd":358:7:358:26|Selected library: work cell: spi_mux_digit_driver view spi_mux_digit_driver as top level
+

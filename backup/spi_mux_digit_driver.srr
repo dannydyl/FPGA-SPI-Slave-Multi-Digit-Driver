@@ -1,0 +1,83 @@
+#Build: Synplify Pro (R) S-2021.09-SP2, Build 244R, Jun  1 2022
+#install: C:\Synopsys\fpga_S-2021.09-SP2
+#OS: Windows 10 or later
+#Hostname: DESKTOP-VAQIVAN
+
+# Wed May  1 09:31:16 2024
+
+#Implementation: rev_21
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DESKTOP-VAQIVAN
+
+Implementation : rev_21
+Synopsys HDL Compiler, Version comp202109syn, Build 243R, Built Jun  1 2022 05:18:42, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DESKTOP-VAQIVAN
+
+Implementation : rev_21
+Synopsys VHDL Compiler, Version comp202109syn, Build 243R, Built Jun  1 2022 05:18:42, @
+
+@N|Running in 64-bit mode
+@N:"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":358:7:358:26|Top entity is set to spi_mux_digit_driver.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd'.
+@W: CD266 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":49:20:49:30|rx_data_out is not readable.  This may cause a simulation mismatch.
+VHDL syntax check successful!
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":358:7:358:26|Synthesizing work.spi_mux_digit_driver.spi_mux_digit_driver.
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":217:7:217:20|Synthesizing work.load_digit_fsm.moore_fsm.
+@N: CD233 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":228:11:228:12|Using sequential encoding for type state.
+@N: CD604 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":277:3:277:16|OTHERS clause is not synthesized.
+Post processing for work.load_digit_fsm.moore_fsm
+Running optimization stage 1 on load_digit_fsm .......
+Finished optimization stage 1 on load_digit_fsm (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 90MB)
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":320:7:320:15|Synthesizing work.hex_seven.behavioral.
+Post processing for work.hex_seven.behavioral
+Running optimization stage 1 on hex_seven .......
+Finished optimization stage 1 on hex_seven (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 90MB)
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":292:7:292:17|Synthesizing work.hex_dig_mux.behavioral.
+Post processing for work.hex_dig_mux.behavioral
+Running optimization stage 1 on hex_dig_mux .......
+Finished optimization stage 1 on hex_dig_mux (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 90MB)
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":163:7:163:19|Synthesizing work.hex_digit_reg.behavioral.
+Post processing for work.hex_digit_reg.behavioral
+Running optimization stage 1 on hex_digit_reg .......
+Finished optimization stage 1 on hex_digit_reg (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 90MB)
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":194:7:194:18|Synthesizing work.decoder_2to4.dataflow.
+@E: CD716 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":204:20:204:26|Expression has ambiguous type
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":133:7:133:17|Synthesizing work.rx_buff_reg.behavioral.
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":65:7:65:14|Synthesizing work.edge_det.moore_fsm.
+@N: CD233 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":77:11:77:12|Using sequential encoding for type state.
+@W: CG296 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":99:12:99:18|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":103:7:103:9|Referenced variable pos is not in sensitivity list.
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":27:7:27:24|Synthesizing work.slv_spi_rx_shifter.slv_spi_rx_shifter.
+1 errors during synthesis
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May  1 09:31:18 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May  1 09:31:18 2024
+
+###########################################################]

@@ -1,0 +1,77 @@
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":358:7:358:26|Synthesizing work.spi_mux_digit_driver.spi_mux_digit_driver.
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":217:7:217:20|Synthesizing work.load_digit_fsm.moore_fsm.
+@N: CD233 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":228:11:228:12|Using sequential encoding for type state.
+@N: CD604 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":277:3:277:16|OTHERS clause is not synthesized.
+Post processing for work.load_digit_fsm.moore_fsm
+Running optimization stage 1 on load_digit_fsm .......
+Finished optimization stage 1 on load_digit_fsm (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 90MB)
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":320:7:320:15|Synthesizing work.hex_seven.behavioral.
+Post processing for work.hex_seven.behavioral
+Running optimization stage 1 on hex_seven .......
+Finished optimization stage 1 on hex_seven (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 90MB)
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":292:7:292:17|Synthesizing work.hex_dig_mux.behavioral.
+Post processing for work.hex_dig_mux.behavioral
+Running optimization stage 1 on hex_dig_mux .......
+Finished optimization stage 1 on hex_dig_mux (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 90MB)
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":163:7:163:19|Synthesizing work.hex_digit_reg.behavioral.
+Post processing for work.hex_digit_reg.behavioral
+Running optimization stage 1 on hex_digit_reg .......
+Finished optimization stage 1 on hex_digit_reg (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":194:7:194:18|Synthesizing work.decoder_2to4.dataflow.
+Post processing for work.decoder_2to4.dataflow
+Running optimization stage 1 on decoder_2to4 .......
+Finished optimization stage 1 on decoder_2to4 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":133:7:133:17|Synthesizing work.rx_buff_reg.behavioral.
+Post processing for work.rx_buff_reg.behavioral
+Running optimization stage 1 on rx_buff_reg .......
+Finished optimization stage 1 on rx_buff_reg (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":65:7:65:14|Synthesizing work.edge_det.moore_fsm.
+@N: CD233 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":77:11:77:12|Using sequential encoding for type state.
+@W: CG296 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":99:12:99:18|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":103:7:103:9|Referenced variable pos is not in sensitivity list.
+Post processing for work.edge_det.moore_fsm
+Running optimization stage 1 on edge_det .......
+Finished optimization stage 1 on edge_det (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+@N: CD630 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":27:7:27:24|Synthesizing work.slv_spi_rx_shifter.slv_spi_rx_shifter.
+Post processing for work.slv_spi_rx_shifter.slv_spi_rx_shifter
+Running optimization stage 1 on slv_spi_rx_shifter .......
+Finished optimization stage 1 on slv_spi_rx_shifter (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Post processing for work.spi_mux_digit_driver.spi_mux_digit_driver
+Running optimization stage 1 on spi_mux_digit_driver .......
+Finished optimization stage 1 on spi_mux_digit_driver (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Running optimization stage 2 on slv_spi_rx_shifter .......
+Finished optimization stage 2 on slv_spi_rx_shifter (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Running optimization stage 2 on edge_det .......
+@N: CL201 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":83:2:83:3|Trying to extract state machine for register present_state.
+Extracted state machine for register present_state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Finished optimization stage 2 on edge_det (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Running optimization stage 2 on rx_buff_reg .......
+Finished optimization stage 2 on rx_buff_reg (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Running optimization stage 2 on decoder_2to4 .......
+Finished optimization stage 2 on decoder_2to4 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Running optimization stage 2 on hex_digit_reg .......
+Finished optimization stage 2 on hex_digit_reg (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Running optimization stage 2 on hex_dig_mux .......
+Finished optimization stage 2 on hex_dig_mux (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Running optimization stage 2 on hex_seven .......
+Finished optimization stage 2 on hex_seven (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Running optimization stage 2 on load_digit_fsm .......
+@N: CL201 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":234:2:234:3|Trying to extract state machine for register present_state.
+Extracted state machine for register present_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+Finished optimization stage 2 on load_digit_fsm (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Running optimization stage 2 on spi_mux_digit_driver .......
+Finished optimization stage 2 on spi_mux_digit_driver (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: F:\ESE382-Lab\Lab11\rev_21\synwork\layer0.rt.csv
+

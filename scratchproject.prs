@@ -1,0 +1,70 @@
+#--  Synopsys, Inc.
+#--  Version S-2021.09-SP2
+#--  Project file F:\ESE382-Lab\Lab11\rev_21\scratchproject.prs
+
+#project files
+add_file -vhdl -lib work "F:/ESE382-Lab/Lab11/Prelab11/Prelab11/prelab11/src/spi_mux_digit_driver.vhd"
+
+
+#implementation: "rev_21"
+impl -add F:\ESE382-Lab\Lab11\rev_21 -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std sysv
+set_option -project_relative_includes 1
+set_option -include_path {F:/ESE382-Lab/Lab11/}
+
+#device options
+set_option -technology MACH
+set_option -part MACH111
+set_option -package ""
+set_option -speed_grade ""
+set_option -part_companion ""
+
+#compilation/mapping options
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+set_option -hdl_strict_syntax 0
+
+# mapper_without_write_options
+set_option -frequency 0
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_structural_verilog 0
+set_option -write_vhdl 0
+
+# Lattice ispMACH4000
+set_option -maxfanin 20
+set_option -rw_check_on_ram 1
+set_option -maxterms 16
+set_option -areadelay 0
+set_option -disable_io_insertion 0
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# flow_options
+set_option -use_unified_compile 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+set_option -multi_file_compilation_unit 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "F:/ESE382-Lab/Lab11/rev_21/spi_mux_digit_driver.edf"
+impl -active "rev_21"

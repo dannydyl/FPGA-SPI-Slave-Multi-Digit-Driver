@@ -1,0 +1,22 @@
+
+fsm_encoding {8832831} sequential
+
+fsm_state_encoding {8832831} state_a {00}
+
+fsm_state_encoding {8832831} state_b {01}
+
+fsm_state_encoding {8832831} state_c {10}
+
+fsm_registers {8832831} {present_state[1]}  {present_state[0]} 
+
+fsm_encoding {823422342} sequential
+
+fsm_state_encoding {823422342} wait_for_sb_0 {00}
+
+fsm_state_encoding {823422342} wait_for_sb_1 {01}
+
+fsm_state_encoding {823422342} wait_ldc_1 {10}
+
+fsm_state_encoding {823422342} output_state {11}
+
+fsm_registers {823422342} {present_state[1]}  {present_state[0]} 

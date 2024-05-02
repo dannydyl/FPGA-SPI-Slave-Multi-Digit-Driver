@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!-- 
+  Synopsys, Inc.
+  Version S-2021.09-SP2
+  Project file F:\ESE382-Lab\Lab11\rev_21\syntmp\run_option.xml
+  Written on Wed May  1 09:35:41 2024
+
+
+--> 
+<project_attribute_list name="Project Settings"> 
+     <option name="project_name" display_name="Project Name">proj_1</option>
+     <option name="device_name" display_name="Device Name">rev_21: Lattice MACH : MACH111</option>
+     <option name="impl_name" display_name="Implementation Name">rev_21</option>
+     <option name="top_module" display_name="Top Module"></option>
+     <option name="resource_sharing" display_name="Resource Sharing">1</option>
+     <option name="disable_io_insertion" display_name="Disable I/O Insertion">0</option>
+     <option name="no_sequential_opt" display_name="Disable Sequential Optimizations">0</option>
+     <option name="symbolic_fsm_compiler" display_name="FSM Compiler">1</option>
+</project_attribute_list>
+

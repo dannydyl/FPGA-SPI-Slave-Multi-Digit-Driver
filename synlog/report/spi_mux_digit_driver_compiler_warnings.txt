@@ -1,0 +1,4 @@
+@W: CD266 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":49:20:49:30|rx_data_out is not readable.  This may cause a simulation mismatch.
+@W: CG296 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":99:12:99:18|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd":103:7:103:9|Referenced variable pos is not in sensitivity list.
+

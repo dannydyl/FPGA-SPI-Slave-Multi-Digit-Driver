@@ -1,0 +1,58 @@
+# Wed May  1 09:35:48 2024
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DESKTOP-VAQIVAN
+
+Implementation : rev_21
+Synopsys CPLD Technology Mapper, Version map202109syn, Build 243R, Built Jun  1 2022 05:17:33, @
+
+@N: MF248 |Running in 64-bit mode.
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+@A: MF827 |No constraint file specified.
+@N: BN362 :"f:\ese382-lab\lab11\prelab11\prelab11\prelab11\src\spi_mux_digit_driver.vhd":147:2:147:3|Removing sequential instance u4.rx_buff_out[6] (in view: work.spi_mux_digit_driver(spi_mux_digit_driver)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO106 :"f:\ese382-lab\lab11\prelab11\prelab11\prelab11\src\spi_mux_digit_driver.vhd":348:6:348:15|Found ROM u11.seg_drive_1[6:0] (in view: work.spi_mux_digit_driver(spi_mux_digit_driver)) with 15 words by 7 bits.
+Encoding state machine present_state[0:2] (in view: work.edge_det(moore_fsm))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine present_state[0:3] (in view: work.load_digit_fsm(moore_fsm))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"f:\ese382-lab\lab11\prelab11\prelab11\prelab11\src\spi_mux_digit_driver.vhd":234:2:234:3|There are no possible illegal states for state machine present_state[0:3] (in view: work.load_digit_fsm(moore_fsm)); safe FSM implementation is not required.
+---------------------------------------
+Resource Usage Report
+
+Simple gate primitives:
+DFFRH           37 uses
+IBUF            7 uses
+OBUF            8 uses
+AND2            145 uses
+INV             85 uses
+OR2             44 uses
+XOR2            1 use
+
+
+@N: FC100 |Timing Report not generated for this device, please use place and route tools for timing analysis.
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 43MB peak: 130MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed May  1 09:35:49 2024
+
+###########################################################]

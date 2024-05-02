@@ -1,0 +1,57 @@
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DESKTOP-VAQIVAN
+
+Implementation : rev_21
+Synopsys HDL compiler and linker, Version comp202109syn, Build 243R, Built Jun  1 2022 05:18:42, @
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+9        F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd (2024-05-01 09:34:24, 2024-05-01 09:35:34)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 9
+MID:  lib.cell.view
+0        work.decoder_2to4.dataflow may have changed because the following files changed:
+                        F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd (2024-05-01 09:34:24, 2024-05-01 09:35:34) <-- (architecture and entity definition)
+2        work.edge_det.moore_fsm may have changed because the following files changed:
+                        F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd (2024-05-01 09:34:24, 2024-05-01 09:35:34) <-- (architecture and entity definition)
+4        work.hex_dig_mux.behavioral may have changed because the following files changed:
+                        F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd (2024-05-01 09:34:24, 2024-05-01 09:35:34) <-- (architecture and entity definition)
+6        work.hex_digit_reg.behavioral may have changed because the following files changed:
+                        F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd (2024-05-01 09:34:24, 2024-05-01 09:35:34) <-- (architecture and entity definition)
+8        work.hex_seven.behavioral may have changed because the following files changed:
+                        F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd (2024-05-01 09:34:24, 2024-05-01 09:35:34) <-- (architecture and entity definition)
+10       work.load_digit_fsm.moore_fsm may have changed because the following files changed:
+                        F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd (2024-05-01 09:34:24, 2024-05-01 09:35:34) <-- (architecture and entity definition)
+12       work.rx_buff_reg.behavioral may have changed because the following files changed:
+                        F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd (2024-05-01 09:34:24, 2024-05-01 09:35:34) <-- (architecture and entity definition)
+14       work.slv_spi_rx_shifter.slv_spi_rx_shifter may have changed because the following files changed:
+                        F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd (2024-05-01 09:34:24, 2024-05-01 09:35:34) <-- (architecture and entity definition)
+16       work.spi_mux_digit_driver.spi_mux_digit_driver may have changed because the following files changed:
+                        F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd (2024-05-01 09:34:24, 2024-05-01 09:35:34) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 9
+FID:  path (timestamp)
+0        C:\Synopsys\fpga_S-2021.09-SP2\lib\vhd\arith.vhd (2022-06-01 07:53:32)
+1        C:\Synopsys\fpga_S-2021.09-SP2\lib\vhd\hyperents.vhd (2022-06-01 07:53:32)
+2        C:\Synopsys\fpga_S-2021.09-SP2\lib\vhd\location.map (2022-06-01 07:53:32)
+3        C:\Synopsys\fpga_S-2021.09-SP2\lib\vhd\numeric.vhd (2022-06-01 07:53:32)
+4        C:\Synopsys\fpga_S-2021.09-SP2\lib\vhd\snps_haps_pkg.vhd (2022-06-01 07:53:32)
+5        C:\Synopsys\fpga_S-2021.09-SP2\lib\vhd\std.vhd (2022-06-01 07:53:32)
+6        C:\Synopsys\fpga_S-2021.09-SP2\lib\vhd\std1164.vhd (2022-06-01 07:53:32)
+7        C:\Synopsys\fpga_S-2021.09-SP2\lib\vhd\umr_capim.vhd (2022-06-01 07:53:32)
+8        C:\Synopsys\fpga_S-2021.09-SP2\lib\vhd\unsigned.vhd (2022-06-01 07:53:32)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

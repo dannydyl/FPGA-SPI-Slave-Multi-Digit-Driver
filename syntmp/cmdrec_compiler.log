@@ -1,0 +1,7 @@
+C:\Synopsys\fpga_S-2021.09-SP2\bin64\c_hdl.exe  -osyn  F:\ESE382-Lab\Lab11\rev_21\synwork\spi_mux_digit_driver_comp.srs  -hdllog  F:\ESE382-Lab\Lab11\rev_21\synlog\spi_mux_digit_driver_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -nostructver  -dfltencoding sequential  -encrypt  -pro  -dmgen  F:\ESE382-Lab\Lab11\rev_21\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd  -jobname  "compiler" 
+relcom:C:\Synopsys\fpga_S-2021.09-SP2\bin64\c_hdl.exe -osyn ..\synwork\spi_mux_digit_driver_comp.srs -hdllog ..\synlog\spi_mux_digit_driver_compiler.srr -encrypt -mp 4 -verification_mode 0 -vhdl -prodtype synplify_pro -nostructver -dfltencoding sequential -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd -jobname "compiler"
+rc:0 success:1 runtime:5
+file:..\synwork\spi_mux_digit_driver_comp.srs|io:o|time:1714570546|size:8745|exec:0|csum:
+file:..\synlog\spi_mux_digit_driver_compiler.srr|io:o|time:1714570546|size:10485|exec:0|csum:
+file:..\..\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd|io:i|time:1714570534|size:13358|exec:0|csum:AAE6CD6DE1757BAB7B6D6A9F857FDF51
+file:C:\Synopsys\fpga_S-2021.09-SP2\bin64\c_hdl.exe|io:i|time:1654085988|size:5621760|exec:1|csum:FEA3F98A19EE7FFA7FDB1670D0E95318

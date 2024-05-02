@@ -1,0 +1,36 @@
+#OPTIONS:"|-layerid|0|-orig_srs|F:\\ESE382-Lab\\Lab11\\rev_21\\synwork\\spi_mux_digit_driver_comp.srs|-autotop|-prodtype|synplify_pro|-nostructver|-dfltencoding|sequential|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\bin64\\c_vhdl.exe":1654086372
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\location.map":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\std.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\snps_haps_pkg.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\std1164.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\numeric.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\umr_capim.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\arith.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\unsigned.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\hyperents.vhd":1654084412
+#CUR:"F:\\ESE382-Lab\\Lab11\\Prelab11\\Prelab11\\prelab11\\src\\spi_mux_digit_driver.vhd":1714570534
+0			"F:\ESE382-Lab\Lab11\Prelab11\Prelab11\prelab11\src\spi_mux_digit_driver.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work slv_spi_rx_shifter 0
+arch work slv_spi_rx_shifter slv_spi_rx_shifter 0
+module work edge_det 0
+arch work edge_det moore_fsm 0
+module work rx_buff_reg 0
+arch work rx_buff_reg behavioral 0
+module work hex_digit_reg 0
+arch work hex_digit_reg behavioral 0
+module work decoder_2to4 0
+arch work decoder_2to4 dataflow 0
+module work load_digit_fsm 0
+arch work load_digit_fsm moore_fsm 0
+module work hex_dig_mux 0
+arch work hex_dig_mux behavioral 0
+module work hex_seven 0
+arch work hex_seven behavioral 0
+module work spi_mux_digit_driver 0
+arch work spi_mux_digit_driver spi_mux_digit_driver 0

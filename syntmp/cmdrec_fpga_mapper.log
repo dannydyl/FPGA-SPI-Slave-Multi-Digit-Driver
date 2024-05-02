@@ -1,0 +1,10 @@
+C:\Synopsys\fpga_S-2021.09-SP2\bin64\m_cpld.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  F:\ESE382-Lab\Lab11\rev_21   -part MACH111    -RWCheckOnRam 1 -areadelay 0 -minc -summaryfile F:\ESE382-Lab\Lab11\rev_21\synlog\report\spi_mux_digit_driver_fpga_mapper.xml -merge_inferred_clocks 0  -implementation  rev_21  -multisrs  -oedif  F:\ESE382-Lab\Lab11\rev_21\spi_mux_digit_driver.edf  F:\ESE382-Lab\Lab11\rev_21\synwork\spi_mux_digit_driver_mult.srs  -devicelib  C:\Synopsys\fpga_S-2021.09-SP2\lib\cpld\mach.v  -ologparam  F:\ESE382-Lab\Lab11\rev_21\syntmp\spi_mux_digit_driver.plg  -osyn  F:\ESE382-Lab\Lab11\rev_21\spi_mux_digit_driver.srm  -prjdir  F:\ESE382-Lab\Lab11\  -prjname  proj_1  -log  F:\ESE382-Lab\Lab11\rev_21\synlog\spi_mux_digit_driver_fpga_mapper.srr  -sn  2021.09  -jobname  "fpga_mapper" 
+relcom:C:\Synopsys\fpga_S-2021.09-SP2\bin64\m_cpld.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\rev_21 -part MACH111 -RWCheckOnRam 1 -areadelay 0 -minc -summaryfile ..\synlog\report\spi_mux_digit_driver_fpga_mapper.xml -merge_inferred_clocks 0 -implementation rev_21 -multisrs -oedif ..\spi_mux_digit_driver.edf ..\synwork\spi_mux_digit_driver_mult.srs -devicelib C:\Synopsys\fpga_S-2021.09-SP2\lib\cpld\mach.v -ologparam spi_mux_digit_driver.plg -osyn ..\spi_mux_digit_driver.srm -prjdir ..\..\ -prjname proj_1 -log ..\synlog\spi_mux_digit_driver_fpga_mapper.srr -sn 2021.09 -jobname "fpga_mapper"
+rc:0 success:1 runtime:2
+file:..\spi_mux_digit_driver.edf|io:o|time:1714570550|size:126921|exec:0|csum:
+file:..\synwork\spi_mux_digit_driver_mult.srs|io:i|time:1714570548|size:4238|exec:0|csum:FC0EF843101914ABF6AF590F99811ECC
+file:C:\Synopsys\fpga_S-2021.09-SP2\lib\cpld\mach.v|io:i|time:1654084572|size:10867|exec:0|csum:B09F820C1C6530D62BE318CBF6A69084
+file:spi_mux_digit_driver.plg|io:o|time:1714570550|size:0|exec:0|csum:
+file:..\spi_mux_digit_driver.srm|io:o|time:1714570550|size:52337|exec:0|csum:
+file:..\synlog\spi_mux_digit_driver_fpga_mapper.srr|io:o|time:1714570550|size:2627|exec:0|csum:
+file:C:\Synopsys\fpga_S-2021.09-SP2\bin64\m_cpld.exe|io:i|time:1654086972|size:25899008|exec:1|csum:3276A01F336CDBD78257F2ED186E1B6A
